@@ -6,16 +6,29 @@
 'use strict';
 
 const express = require('express');
+const next = require('next');
+
+const dev = process.env.NODE_ENV !== 'production';
+const app = next({ dev });
+const handle = app.getRequestHandler();
 
 // Constants
 const PORT = 3000;
 const HOST = '0.0.0.0';
 
-// App
-const app = express();
-app.get('/', (req, res) => {
-	res.send('Hello remote world!\n');
+// Example API route
+server.get('/api/status', (req, res) => {
+res.json({ status: 'ok', message: 'API running' });
 });
 
-app.listen(PORT, HOST);
-console.log(`Running on http://${HOST}:${PORT}`);
+
+// Serve Next.js pages
+server.all('*', (req, res) => {
+return handle(req, res);
+});
+
+
+const port = 3000;
+server.listen(port, () => {
+console.log(`Server listening on http://localhost:${port}`);
+});
