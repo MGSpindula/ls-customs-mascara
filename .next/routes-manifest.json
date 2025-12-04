@@ -28,10 +28,34 @@
       "namedRegex": "^/(?:/)?$"
     },
     {
+      "page": "/api/login",
+      "regex": "^/api/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/login(?:/)?$"
+    },
+    {
+      "page": "/api/register",
+      "regex": "^/api/register(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/register(?:/)?$"
+    },
+    {
       "page": "/api/status",
       "regex": "^/api/status(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/status(?:/)?$"
+    },
+    {
+      "page": "/login",
+      "regex": "^/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login(?:/)?$"
+    },
+    {
+      "page": "/register",
+      "regex": "^/register(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/register(?:/)?$"
     }
   ],
   "dataRoutes": [],
