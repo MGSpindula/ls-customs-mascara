@@ -28,6 +28,48 @@
       "namedRegex": "^/(?:/)?$"
     },
     {
+      "page": "/api/items/add-manufactured",
+      "regex": "^/api/items/add\\-manufactured(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/items/add\\-manufactured(?:/)?$"
+    },
+    {
+      "page": "/api/items/add-raw",
+      "regex": "^/api/items/add\\-raw(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/items/add\\-raw(?:/)?$"
+    },
+    {
+      "page": "/api/items/create-manufactured",
+      "regex": "^/api/items/create\\-manufactured(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/items/create\\-manufactured(?:/)?$"
+    },
+    {
+      "page": "/api/items/create-raw",
+      "regex": "^/api/items/create\\-raw(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/items/create\\-raw(?:/)?$"
+    },
+    {
+      "page": "/api/items/delete",
+      "regex": "^/api/items/delete(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/items/delete(?:/)?$"
+    },
+    {
+      "page": "/api/items/list",
+      "regex": "^/api/items/list(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/items/list(?:/)?$"
+    },
+    {
+      "page": "/api/items/search",
+      "regex": "^/api/items/search(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/items/search(?:/)?$"
+    },
+    {
       "page": "/api/login",
       "regex": "^/api/login(?:/)?$",
       "routeKeys": {},
@@ -44,6 +86,24 @@
       "regex": "^/api/status(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/status(?:/)?$"
+    },
+    {
+      "page": "/dashboard",
+      "regex": "^/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard(?:/)?$"
+    },
+    {
+      "page": "/dashboard/add-manufactured",
+      "regex": "^/dashboard/add\\-manufactured(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/add\\-manufactured(?:/)?$"
+    },
+    {
+      "page": "/dashboard/add-raw",
+      "regex": "^/dashboard/add\\-raw(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/add\\-raw(?:/)?$"
     },
     {
       "page": "/login",

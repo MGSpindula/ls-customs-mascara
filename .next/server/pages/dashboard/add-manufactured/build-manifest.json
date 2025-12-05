@@ -1,0 +1,15 @@
+{
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [],
+  "pages": {
+    "/dashboard/add-manufactured": [
+      "static/chunks/a1894f9425875247.js",
+      "static/chunks/f13a8fe2a4bd2aae.js",
+      "static/chunks/turbopack-8324bc33d15135db.js"
+    ]
+  },
+  "ampFirstPages": []
+}

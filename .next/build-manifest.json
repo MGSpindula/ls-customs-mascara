@@ -15,6 +15,21 @@
       "static/chunks/f13a8fe2a4bd2aae.js",
       "static/chunks/turbopack-f606a81674e90760.js"
     ],
+    "/dashboard": [
+      "static/chunks/4519ee1ad3739ae0.js",
+      "static/chunks/f13a8fe2a4bd2aae.js",
+      "static/chunks/turbopack-b2cbed963c67620b.js"
+    ],
+    "/dashboard/add-manufactured": [
+      "static/chunks/a1894f9425875247.js",
+      "static/chunks/f13a8fe2a4bd2aae.js",
+      "static/chunks/turbopack-8324bc33d15135db.js"
+    ],
+    "/dashboard/add-raw": [
+      "static/chunks/30a15d395395d5a3.js",
+      "static/chunks/f13a8fe2a4bd2aae.js",
+      "static/chunks/turbopack-7c65e6f86e2b004a.js"
+    ],
     "/login": [
       "static/chunks/56185d851b9a7456.js",
       "static/chunks/f13a8fe2a4bd2aae.js",
@@ -29,8 +44,8 @@
   "devFiles": [],
   "polyfillFiles": [],
   "lowPriorityFiles": [
-    "static/4TGCiYp3cYePrsSyFVqYe/_ssgManifest.js",
-    "static/4TGCiYp3cYePrsSyFVqYe/_buildManifest.js"
+    "static/xvOpaXGz6gwsm-Uo95ce_/_ssgManifest.js",
+    "static/xvOpaXGz6gwsm-Uo95ce_/_buildManifest.js"
   ],
   "rootMainFiles": []
 }
