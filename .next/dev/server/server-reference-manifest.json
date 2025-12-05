@@ -1,5 +1,190 @@
 {
-  "node": {},
+  "node": {
+    "0047e6747e13e8f283e1bca414e16cde86343cda6c": {
+      "workers": {
+        "app/dashboard/createManufactured/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/createManufactured/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/dashboard/createManufactured/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/actions/items.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "listItemsAction",
+          "filename": "src/actions/items.js"
+        },
+        "app/dashboard/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/actions/items.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "listItemsAction",
+          "filename": "src/actions/items.js"
+        }
+      },
+      "layer": {
+        "app/dashboard/createManufactured/page": "rsc",
+        "app/dashboard/page": "rsc"
+      },
+      "filename": "src/actions/items.js",
+      "exportedName": "listItemsAction"
+    },
+    "4013793654b74ffce244388ddf9bc8c4bb2e241cca": {
+      "workers": {
+        "app/dashboard/createManufactured/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/createManufactured/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/dashboard/createManufactured/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/actions/items.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "addRawAction",
+          "filename": "src/actions/items.js"
+        },
+        "app/dashboard/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/actions/items.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "addRawAction",
+          "filename": "src/actions/items.js"
+        }
+      },
+      "layer": {
+        "app/dashboard/createManufactured/page": "rsc",
+        "app/dashboard/page": "rsc"
+      },
+      "filename": "src/actions/items.js",
+      "exportedName": "addRawAction"
+    },
+    "40224b0ecc50587b578a19a233b9821f0297559278": {
+      "workers": {
+        "app/dashboard/createManufactured/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/createManufactured/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/dashboard/createManufactured/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/actions/items.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "addManufacturedAction",
+          "filename": "src/actions/items.js"
+        },
+        "app/dashboard/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/actions/items.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "addManufacturedAction",
+          "filename": "src/actions/items.js"
+        }
+      },
+      "layer": {
+        "app/dashboard/createManufactured/page": "rsc",
+        "app/dashboard/page": "rsc"
+      },
+      "filename": "src/actions/items.js",
+      "exportedName": "addManufacturedAction"
+    },
+    "40ebe1b9427199e1bed87dd918912f5736a1675655": {
+      "workers": {
+        "app/dashboard/createManufactured/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/createManufactured/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/dashboard/createManufactured/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/actions/items.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "searchItemsAction",
+          "filename": "src/actions/items.js"
+        },
+        "app/dashboard/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/actions/items.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "searchItemsAction",
+          "filename": "src/actions/items.js"
+        }
+      },
+      "layer": {
+        "app/dashboard/createManufactured/page": "rsc",
+        "app/dashboard/page": "rsc"
+      },
+      "filename": "src/actions/items.js",
+      "exportedName": "searchItemsAction"
+    },
+    "40f6c524073e994a11eddff5189c9ba8771d715ac7": {
+      "workers": {
+        "app/dashboard/createManufactured/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/createManufactured/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/dashboard/createManufactured/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/actions/items.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteItemAction",
+          "filename": "src/actions/items.js"
+        },
+        "app/dashboard/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/actions/items.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteItemAction",
+          "filename": "src/actions/items.js"
+        }
+      },
+      "layer": {
+        "app/dashboard/createManufactured/page": "rsc",
+        "app/dashboard/page": "rsc"
+      },
+      "filename": "src/actions/items.js",
+      "exportedName": "deleteItemAction"
+    },
+    "603cfcd8d06fa2309ae54ec0b8449b737d718d2dc1": {
+      "workers": {
+        "app/dashboard/createManufactured/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/createManufactured/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/dashboard/createManufactured/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/actions/items.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "addStockAction",
+          "filename": "src/actions/items.js"
+        },
+        "app/dashboard/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/actions/items.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "addStockAction",
+          "filename": "src/actions/items.js"
+        }
+      },
+      "layer": {
+        "app/dashboard/createManufactured/page": "rsc",
+        "app/dashboard/page": "rsc"
+      },
+      "filename": "src/actions/items.js",
+      "exportedName": "addStockAction"
+    },
+    "60cbb60f24b553b13361d1a947992e39a795c541b0": {
+      "workers": {
+        "app/dashboard/createManufactured/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/createManufactured/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/dashboard/createManufactured/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/actions/items.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "removeStockAction",
+          "filename": "src/actions/items.js"
+        },
+        "app/dashboard/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/actions/items.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "removeStockAction",
+          "filename": "src/actions/items.js"
+        }
+      },
+      "layer": {
+        "app/dashboard/createManufactured/page": "rsc",
+        "app/dashboard/page": "rsc"
+      },
+      "filename": "src/actions/items.js",
+      "exportedName": "removeStockAction"
+    },
+    "402bdf67f6d56ae1fcd1bf79f03485724f4b4b6790": {
+      "workers": {
+        "app/dashboard/createManufactured/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/createManufactured/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/dashboard/createManufactured/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/actions/items.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "handleSubmit",
+          "filename": "src/app/dashboard/createManufactured/actions.js"
+        }
+      },
+      "layer": {
+        "app/dashboard/createManufactured/page": "rsc"
+      },
+      "filename": "src/app/dashboard/createManufactured/actions.js",
+      "exportedName": "handleSubmit"
+    },
+    "404030f2957aaebb17255570ced8aa9c168aab93a3": {
+      "workers": {
+        "app/dashboard/createManufactured/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/createManufactured/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/dashboard/createManufactured/actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/actions/items.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "handleSearch",
+          "filename": "src/app/dashboard/createManufactured/actions.js"
+        }
+      },
+      "layer": {
+        "app/dashboard/createManufactured/page": "rsc"
+      },
+      "filename": "src/app/dashboard/createManufactured/actions.js",
+      "exportedName": "handleSearch"
+    }
+  },
   "edge": {},
-  "encryptionKey": "3oar9wc3eX5XbrolTi2AM2SnTRywQqd2XeTWaG9zslI="
+  "encryptionKey": "13DcTtfOPGOoiJ99NRKK37HZG/HVD2ZijdAo/GOORBs="
 }

@@ -1,4 +1,4 @@
 {
-  "/api/items/list/route": "app/api/items/list/route.js",
+  "/dashboard/createManufactured/page": "app/dashboard/createManufactured/page.js",
   "/dashboard/page": "app/dashboard/page.js"
 }

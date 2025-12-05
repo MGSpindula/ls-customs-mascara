@@ -1,24 +1,29 @@
-import { NextResponse } from 'next/server';
-import { connectDB } from '../../../../lib/mongo';
-import Item from '../../../../models/Item';
+import { NextResponse } from "next/server";
+import { deleteItem } from "../../../../lib/itemsActions";
+import { DependencyError } from "../../../../lib/errors";
 
 export async function DELETE(request) {
-  await connectDB();
+    try {
+        const { searchParams } = new URL(request.url);
+        const id = searchParams.get("id");
 
-  const { searchParams } = new URL(request.url);
-  const id = searchParams.get('id');
+        if (!id) {
+            return NextResponse.json({ success: false, error: "Missing item id" }, { status: 400 });
+        }
 
-  try {
-    const dependentCount = await Item.countDocuments({ 'components.item': id });
+        const deleted = await deleteItem(id);
 
-    if (dependentCount > 0) {
-      return NextResponse.json({ success: false, error: 'Cannot delete this item because it is used in manufactured items' }, { status: 400 });
+        if (!deleted) {
+            return NextResponse.json({ success: false, error: "Item not found" }, { status: 404 });
+        }
+
+        return NextResponse.json({ success: true }, { status: 200 });
+    } catch (err) {
+        if (err instanceof DependencyError) {
+            return NextResponse.json({ success: false, error: err.message }, { status: 400 });
+        }
+
+        console.error("Unexpected error deleting item:", err);
+        return NextResponse.json({ success: false, error: "Internal server error" }, { status: 500 });
     }
-
-    await Item.findByIdAndDelete(id);
-
-    return NextResponse.json({ success: true });
-  } catch (err) {
-    return NextResponse.json({ success: false, error: err.message }, { status: 500 });
-  }
 }

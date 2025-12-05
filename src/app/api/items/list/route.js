@@ -1,24 +1,16 @@
 import { NextResponse } from 'next/server';
-import { connectDB } from '../../../../lib/mongo';
-import Item from '../../../../models/Item';
+import { listItems } from '../../../../lib/itemsActions';
 
 export async function GET() {
-  await connectDB();
+  try {
+    const items = await listItems();
 
-  const items = await Item.find().populate('components.item');
-
-  const data = [];
-  for (const itm of items) {
-    const netPrice = await itm.getNetPrice();
-    data.push({
-      _id: itm._id,
-      name: itm.name,
-      type: itm.type,
-      netPrice,
-      stock: itm.stock,
-      components: itm.components
-    });
+    return NextResponse.json(items, { status: 200 });
+  } catch (error) {
+    console.error('Error fetching items:', error);
+    return NextResponse.json(
+      { success: false, error: 'Failed to fetch items' },
+      { status: 500 }
+    );
   }
-
-  return NextResponse.json(data);
 }

@@ -15,8 +15,12 @@ export default function Register() {
       body: JSON.stringify({ email, password })
     });
 
-    const data = await res.json();
-    setMsg(data.success ? 'User created' : data.error);
+      const data = await res.json();
+      if (data.success) {
+          window.location.href = '/login';
+      } else {
+          setMsg(data.error);
+      }
   }
 
   return (
